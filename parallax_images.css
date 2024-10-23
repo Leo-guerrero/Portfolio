@@ -1,0 +1,36 @@
+canvas{
+    position: fixed;
+    z-index: -5;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+/*
+@media (max-width: 768px){
+    canvas{
+        margin-left: -50%;
+    }
+}
+
+@media (max-width: 425px){
+    canvas{
+        margin-left: -140%;
+    }
+}
+
+@media (max-width: 320px){
+    canvas{
+        margin-left: -170%;
+    }
+}
+*/
+
+#chungus{
+    margin-left: -40%;
+}
+
+
+
