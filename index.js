@@ -17,7 +17,6 @@ window.onscroll = function() {
     document.getElementById("bg").style.filter = 'blur(1px)';
    }
 
-  console.log(window.scrollY);
   prevScrollpos = currentScrollPos;
 }
 
