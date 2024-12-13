@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="general_styles.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <title>Leo Guerrero's Website</title>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
+                "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <canvas id="bg" class="layer fadeIn" data-speed="2"></canvas>
+    <script type="module" src="3dstuff.js"></script> 
+    <script src="https://kit.fontawesome.com/386ca3d802.js" crossorigin="anonymous"></script>
+    <div id="move"></div>
+
+    <div id="buttons_top" class="header_buttons">
+    </div>
+    
+    <div class="header_buttons" id="link_buttons">
+        <a href="https://github.com/Leo-guerrero?tab=repositories" target=_blank><button class="main">GitHub </button></a> 
+        <a href="Leo Guerrero's Resume.pdf" download ><button class="main">Resume </button></a> 
+        <a href="mailto:sja.leo.guerrero@gmail.com"><Button class="main">Email </Button></a>
+        <a href="https://www.linkedin.com/in/leo-guerrero-8332a62a5/" target=_blank><Button class="main">LinkedIn </Button></a> 
+    </div>
+    
+
+    <div class="dropdown">
+        <button class="dropbtn">
+            <div class="menu_icon"><i class="fa fa-navicon fa-2x"></i></div>
+        </button>
+        <div class="dropdown-content" id="drop_buttons_lol">
+          <a href="https://github.com/Leo-guerrero?tab=repositories" target=_blank style="color:white;">GitHub</a>
+          <a href="Leo Guerrero's Resume.pdf" download style="color:white;">Resume</a> 
+          <a href="mailto:sja.leo.guerrero@gmail.com" style="color:white;">Email</a>
+          <a href="https://www.linkedin.com/in/leo-guerrero-8332a62a5/" target=_blank style="color:white;">LinkedIn</a>
+        </div>
+    </div>
+
+    <div>
+    <div id="myname"><h1 id="name_spec">Leo Guerrero</h1><h1 id="test">Software Engineer</h1></div>
+    </div>
+
+    <div class="image-container">
+    <img id="freaky" src="images/front_page.png">
+    </div>
+    
+<div id="blur_back">
+    <div class="title_head hidden">
+        <p id="about_color">ABOUT</p>
+    </div>
+
+
+    <div class="containter_test">
+        <div id="holder_ID" class="holder hidden">
+            <p id="intro_text" class="hidden">Currently seeking to enhance my technical expertise, broaden my knowledge base, and prepare for a successful career in the tech industry.<br><br> I created this webiste so I could test my skills using <span style="color:orange;">HTML</span>, <span style="color:rgb(105, 167, 255);">CSS</span>, <span style="color:yellow;">JavaScript</span>, and <span style="color:rgb(149, 255, 0);">Three.js</span>. This isn't the first website I have made and it certainly won't be the last.</p>
+        </div>
+        <div class="hidden" id="holder_my_pic" >
+            <img id="holder_pic" class="pic_mer hidden" src="images/joe.PNG">
+        </div>
+        
+    </div>
+
+    <div id="skill_container">
+    <div >
+        <p id="education" class="title_head hidden">SKILLS</p>
+
+    </div>
+    
+    <div class="scrolling-wrapper hidden">
+        <div class="scrolling-content hidden">
+        <img src="images/programming-languages.png">
+        <img src="images/programming-languages.png">
+        <img src="images/programming-languages.png">
+        </div>
+    </div>
+
+    <div>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <div class="languages_container">
+        <div id="holder2_ID" class="holder2 hidden">
+        <p id="languID" class="hidden langu">Proficient:<br> C++, Python, Java, HTML, CSS, JavaScript, jQuery, SQL</p>
+        </div>
+        <div id="holder2_ID_TWO" class="holder2 hidden">
+        <p id="languID_2" class="hidden langu">Intermediate:<br> Assembly x86, Prolog, C, Three.js, WordPress</p>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="title_head hidden">
+        <p>PROJECTS / WORK</p>
+    </div>
+
+    <div class="media-SROLLER" id="Projects_NEW">
+        <div class="media-element"><img draggable="false" src="images/WorkYap.png"><h2>Work Messaging App</h2><p>October 2024 - December 2024 </p>
+            <p class="project_text" style="font-size: 1.5rem;">I utilized SwiftUI to create an iphone app where employees may message each other and I saved the messages using Firebase.</p>
+            <p class="project_text" style="font-size: 1.5rem;"><span class="round_radious" >SWIFTUI</span> <span class="round_radious">FIREBASE</span></p>
+            <a href="https://github.com/Leo-guerrero?tab=repositories" target=_blank><button class="learn_more" id="learner">Learn More <i class="fas fa-external-link-alt"></i></button></a>
+        </div>
+        <div class="media-element"><img draggable="false" src="images/pub.jpg"><h2>Brownsville Public Utilities Board</h2><p>June 2024 - August 2024 </p>
+            <p class="project_text" style="font-size: 1.5rem;">This is a link to the Brownsville Public Utilities Board webstie, I worked as an Intern, and I helped develop the site and add improvements to it.</p>
+            <p class="project_text" style="font-size: 1.5rem;"><span class="round_radious" >HTML</span> <span class="round_radious">CSS</span> <span class="round_radious">JAVASCRIPT</span> <span class="round_radious">WORDPRESS</span></p>
+            <a href="https://www.brownsville-pub.com/" target=_blank><button class="learn_more" id="learner">Learn More <i class="fas fa-external-link-alt"></i></button></a>
+        </div>
+        <div class="media-element"><img draggable="false" src="images/permafrost_resize.png"><h2>Permafrost</h2><p>May 2022 - March 2023 </p>
+            <p class="project_text" style="font-size: 1.5rem;">This is a game that I have developed, it's a personal project that I was working on during my sophomore year of college.</p>
+            <p class="project_text" style="font-size: 1.5rem;"><span class="round_radious">GML</span></p>
+            <a href="https://gamejolt.com/games/Permafrost/784002" target=_blank><button class="learn_more">Learn More <i class="fas fa-external-link-alt"></i></button></a>
+        </div>
+        <div class="media-element"><img draggable="false" src="images/github_resize.png"><h2>GitHub Repository</h2><p>August 2023 - Present </p>
+            <p class="project_text" style="font-size: 1.5rem;">This is a link to my Github repository, here you will find my previous coding projects that I worked on in college or projects that I did personally.</p>
+            <a href="https://github.com/Leo-guerrero?tab=repositories" target=_blank><button class="learn_more">Learn More <i class="fas fa-external-link-alt"></i></button></a>
+        </div>
+    </div>
+
+    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+            <a href="#top"><i id="back_up" class="fas fa-chevron-up fa-4x"></i></a>
+        </div>
+        <br>
+        <br>
+        <br>
+      
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       
+        
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
